@@ -1,0 +1,11 @@
+Bạn có thể mở file .ipynb (jupyter notebook) trong trình duyệt hoặc .py trong IDLE của Python để chơi nhé!
+
+Có đầy đủ mọi chế độ từ "Dễ" đến "Không thể" dành cho mọi đối tượng gamer từ chỉ muốn giải trí đơn thuần đến try hard đỉnh cao so tài cùng bạn bè. Chỉ cần bạn đừng chơi gian lận chỉnh sửa file lưu điểm nhé ;)
+
+Ấn mũi tên hướng lên để chú chim bay lên!
+
+This project was made by Nhím aka Ngọc (có tham khảo "khá" nhiều thông tin hữu ích trên internet và Youtube :v)
+
+Enjoy <3 :3 !!!
+
+10:34 SA 18/08/2022
