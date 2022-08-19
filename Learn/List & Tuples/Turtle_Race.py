@@ -47,17 +47,16 @@ for turtle in range(0, 4):
     
 def random_walk(turtles):
     global run
+    global time
     for turtle in turtles:
-        finished = False
-        if finished == False:
-            turtle.forward(random.randint(1, 10))
-            # Kiểm tra điều kiện cán đích
-            # Khi 1 con cán đích thì dừng lại
-            if turtle.xcor() > 250:
-                print(f"Chú rùa thứ {turtles.index(turtle)+1} đã giành chiến thắng!")
-                finished = True
-                break
-        run = False
+        turtle.forward(random.randint(1, 10))
+        # Kiểm tra điều kiện cán đích
+        # Khi 1 con cán đích thì dừng lại
+        if turtle.xcor() > 250:
+            print(f"Chú rùa thứ {turtles.index(turtle)+1} đã giành chiến thắng trong {datetime.datetime.now()-time}")
+            run = False
+
+time = datetime.datetime.now()
 
 run = True
 while run:
